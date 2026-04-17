@@ -1,0 +1,12 @@
+  正在确定要还原的项目…
+  所有项目均是最新的，无法还原。
+  NovelService -> D:\CleanReader.Desktop-3.2302.1.0\src\Services\NovelService\bin\Debug\net6.0\NovelService.dll
+C:\Users\cgop12\.nuget\packages\microsoft.windowsappsdk\1.2.230118.102\buildTransitive\MrtCore.PriGen.targets(911,5): error MSB4062: 未能从程序集 C:\Program Files\dotnet\sdk\10.0.201\\Microsoft\VisualStudio\v18.0\AppxPackage\\Microsoft.Build.Packaging.Pri.Tasks.dll 加载任务“Microsoft.Build.Packaging.Pri.Tasks.ExpandPriContent”。Could not load file or assembly 'C:\Program Files\dotnet\sdk\10.0.201\\Microsoft\VisualStudio\v18.0\AppxPackage\\Microsoft.Build.Packaging.Pri.Tasks.dll'. 系统找不到指定的文件。 请确认 <UsingTask> 声明正确，该程序集及其所有依赖项都可用，并且该任务包含实现 Microsoft.Build.Framework.ITask 的公共类。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.Core\CleanReader.Core.csproj]
+
+生成失败。
+
+C:\Users\cgop12\.nuget\packages\microsoft.windowsappsdk\1.2.230118.102\buildTransitive\MrtCore.PriGen.targets(911,5): error MSB4062: 未能从程序集 C:\Program Files\dotnet\sdk\10.0.201\\Microsoft\VisualStudio\v18.0\AppxPackage\\Microsoft.Build.Packaging.Pri.Tasks.dll 加载任务“Microsoft.Build.Packaging.Pri.Tasks.ExpandPriContent”。Could not load file or assembly 'C:\Program Files\dotnet\sdk\10.0.201\\Microsoft\VisualStudio\v18.0\AppxPackage\\Microsoft.Build.Packaging.Pri.Tasks.dll'. 系统找不到指定的文件。 请确认 <UsingTask> 声明正确，该程序集及其所有依赖项都可用，并且该任务包含实现 Microsoft.Build.Framework.ITask 的公共类。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.Core\CleanReader.Core.csproj]
+    0 个警告
+    1 个错误
+
+已用时间 00:00:01.05

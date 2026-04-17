@@ -1,0 +1,85 @@
+CleanReader 安装问题解决方案
+================================
+
+问题：install.ps1 脚本闪退（窗口立即关闭）
+
+根本原因：
+1. 脚本可能缺少必要的证书 (.cer) 和 MSIX 应用包文件
+2. PowerShell 执行策略限制 (Restricted)
+3. 管理员权限请求失败
+4. 路径包含中文字符导致问题
+
+解决方案（推荐）：
+
+方案一：使用现有完整安装包（最简单）
+------------------------------------
+您已经有一个完整的安装包目录：
+`D:\重构工程\文档\CleanReader.Desktop_3.2302.1.0_x64\CleanReader.Bundle_3.2302.1.0_Test\`
+
+该目录包含：
+- Install.ps1 (标准安装脚本)
+- Add-AppDevPackage.ps1 (Microsoft官方安装脚本)
+- CleanReader.Bundle_3.2302.1.0_x64.cer (证书)
+- CleanReader.Bundle_3.2302.1.0_x64.msixbundle (应用包)
+- Dependencies\ (依赖文件)
+
+操作步骤：
+1. 打开资源管理器，导航到上述目录
+2. 右键点击 `Install.ps1`
+3. 选择 "使用 PowerShell 运行"
+4. 按照提示操作（需要管理员权限）
+
+方案二：使用简化版安装脚本
+--------------------------
+如果方案一仍然闪退，使用项目根目录的简化脚本：
+
+1. 打开 `D:\重构工程\CleanReader.Desktop-3.2302.1.0\`
+2. 右键点击 `install_simple.ps1`
+3. 选择 "使用 PowerShell 运行"
+
+方案三：手动设置执行策略
+------------------------
+如果脚本因执行策略闪退：
+
+1. 以管理员身份打开 PowerShell
+2. 运行命令：
+   ```
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+3. 输入 `Y` 确认
+4. 重新运行安装脚本
+
+方案四：使用调试版脚本（查看详细错误）
+--------------------------------------
+1. 打开 `D:\重构工程\CleanReader.Desktop-3.2302.1.0\`
+2. 右键点击 `install_debug.ps1`
+3. 选择 "使用 PowerShell 运行"
+4. 查看生成的 `install.log` 文件了解详细错误
+
+方案五：手动安装
+----------------
+1. 双击 `CleanReader.Bundle_3.2302.1.0_x64.cer` 安装证书
+   - 选择 "安装证书"
+   - 选择 "本地计算机"
+   - 选择 "将所有的证书都放入下列存储"
+   - 选择 "受信任的根证书颁发机构"
+   - 完成安装
+2. 双击 `CleanReader.Bundle_3.2302.1.0_x64.msixbundle` 安装应用
+
+常见问题排查：
+-------------
+1. 如果出现 "无法加载文件，因为在此系统上禁止运行脚本"
+   - 运行：`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+2. 如果管理员权限请求失败
+   - 右键点击脚本，选择 "以管理员身份运行"
+
+3. 如果证书导入失败
+   - 确保以管理员身份运行
+   - 或使用方案五手动安装证书
+
+4. 如果应用安装失败
+   - 确保已安装 Windows App SDK 运行时
+   - 检查事件查看器查看详细错误
+
+创建时间：2026-04-17 20:57

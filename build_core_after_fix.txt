@@ -1,0 +1,11 @@
+﻿  正在确定要还原的项目…
+  已还原 D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.Core\CleanReader.Core.csproj (用时 329 毫秒)。
+  1 个项目(共 2 个)是最新的，无法还原。
+  NovelService -> D:\CleanReader.Desktop-3.2302.1.0\src\Services\NovelService\bin\Debug\net6.0\NovelService.dll
+  CleanReader.Core -> D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.Core\bin\Debug\net6.0-windows10.0.22000.0\CleanReader.Core.dll
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:07.53

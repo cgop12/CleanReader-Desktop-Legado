@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '15.0'">
+    <VisualStudioVersion>15.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup>
+    <WapProjPath Condition="'$(WapProjPath)'==''">$(MSBuildExtensionsPath)\Microsoft\DesktopBridge\</WapProjPath>
+  </PropertyGroup>
+  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
+  <PropertyGroup>
+    <ProjectGuid>64274ad4-38ae-40a8-af6a-991a4cada173</ProjectGuid>
+    <TargetPlatformVersion>10.0.22621.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.22621.0</TargetPlatformMinVersion>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <NoWarn>$(NoWarn);NU1702;NU1701</NoWarn>
+    <EntryPointProjectUniqueName>..\CleanReader.App\CleanReader.App.csproj</EntryPointProjectUniqueName>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>x64</AppxBundlePlatforms>
+    <GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <GenerateTestArtifacts>False</GenerateTestArtifacts>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+    <Use64BitCompiler>true</Use64BitCompiler>
+    <PackageCertificateKeyFile>
+    </PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\coverholder-Dark.png" />
+    <Content Include="Assets\coverholder-Light.png" />
+    <Content Include="Assets\durationempty-Dark.png" />
+    <Content Include="Assets\durationempty-Light.png" />
+    <Content Include="Assets\EPUB.png" />
+    <Content Include="Assets\Epub\css\main.css" />
+    <Content Include="Assets\Epub\META-INF\container.xml" />
+    <Content Include="Assets\Epub\OPS\content.opf" />
+    <Content Include="Assets\Epub\OPS\toc.ncx" />
+    <Content Include="Assets\Epub\page.html" />
+    <Content Include="Assets\Epub\title-page.html" />
+    <Content Include="Assets\exploreerror-Dark.png" />
+    <Content Include="Assets\exploreerror-Light.png" />
+    <Content Include="Assets\favicon.ico" />
+    <Content Include="Assets\LibraryInitialize\BookSources\shucang.json" />
+    <Content Include="Assets\LibraryInitialize\meta.db" />
+    <Content Include="Assets\LibraryInitialize\theme.json" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\logo.png" />
+    <Content Include="Assets\Logo\LargeTile.scale-100.png" />
+    <Content Include="Assets\Logo\LargeTile.scale-125.png" />
+    <Content Include="Assets\Logo\LargeTile.scale-150.png" />
+    <Content Include="Assets\Logo\LargeTile.scale-200.png" />
+    <Content Include="Assets\Logo\LargeTile.scale-400.png" />
+    <Content Include="Assets\Logo\SmallTile.scale-100.png" />
+    <Content Include="Assets\Logo\SmallTile.scale-125.png" />
+    <Content Include="Assets\Logo\SmallTile.scale-150.png" />
+    <Content Include="Assets\Logo\SmallTile.scale-200.png" />
+    <Content Include="Assets\Logo\SmallTile.scale-400.png" />
+    <Content Include="Assets\Logo\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Logo\SplashScreen.scale-125.png" />
+    <Content Include="Assets\Logo\SplashScreen.scale-150.png" />
+    <Content Include="Assets\Logo\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Logo\SplashScreen.scale-400.png" />
+    <Content Include="Assets\Logo\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Logo\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Logo\Square150x150Logo.scale-150.png" />
+    <Content Include="Assets\Logo\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Logo\Square150x150Logo.scale-400.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-lightunplated_targetsize-16.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-lightunplated_targetsize-24.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-lightunplated_targetsize-256.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-lightunplated_targetsize-32.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-lightunplated_targetsize-48.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-unplated_targetsize-16.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-unplated_targetsize-24.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-unplated_targetsize-256.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-unplated_targetsize-32.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.altform-unplated_targetsize-48.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.scale-100.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.scale-125.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.scale-150.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.scale-400.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.targetsize-16.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.targetsize-24.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.targetsize-256.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.targetsize-32.png" />
+    <Content Include="Assets\Logo\Square44x44Logo.targetsize-48.png" />
+    <Content Include="Assets\Logo\StoreLogo.scale-100.png" />
+    <Content Include="Assets\Logo\StoreLogo.scale-125.png" />
+    <Content Include="Assets\Logo\StoreLogo.scale-150.png" />
+    <Content Include="Assets\Logo\StoreLogo.scale-200.png" />
+    <Content Include="Assets\Logo\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Logo\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Logo\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Logo\Wide310x150Logo.scale-150.png" />
+    <Content Include="Assets\Logo\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Logo\Wide310x150Logo.scale-400.png" />
+    <Content Include="Assets\noteempty-Dark.png" />
+    <Content Include="Assets\noteempty-Light.png" />
+    <Content Include="Assets\Reader\assets\index.0765d6f3.css" />
+    <Content Include="Assets\Reader\assets\index.89e9dc67.js" />
+    <Content Include="Assets\Reader\assets\vendor.fe4b0185.js" />
+    <Content Include="Assets\Reader\favicon.ico" />
+    <Content Include="Assets\Reader\index.html" />
+    <Content Include="Assets\shelfempty-Dark.png" />
+    <Content Include="Assets\shelfempty-Light.png" />
+    <Content Include="Assets\sourceempty-Dark.png" />
+    <Content Include="Assets\sourceempty-Light.png" />
+    <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.scale-200.png" />
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\Txt.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\LibraryInitialize\BookSources\biquge.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\LibraryInitialize\BookSources\zhaishuyuan.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="CleanReader.Bundle_TemporaryKey.pfx" />
+  </ItemGroup>
+  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Graphics.Win2D" Version="1.0.4" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.1721" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260317003" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CleanReader.App\CleanReader.App.csproj" />
+  </ItemGroup>
+
+  <!-- 侧加载安装包自定义目标 -->
+  <PropertyGroup>
+    <WinAppCliPath>winapp</WinAppCliPath>
+    <SideloadOutputDir>$(MSBuildProjectDirectory)\..\..\SideloadPackage</SideloadOutputDir>
+    <AppOutputDir>$(MSBuildProjectDirectory)\..\CleanReader.App\bin\$(Platform)\$(Configuration)\net8.0-windows10.0.22621.0</AppOutputDir>
+    <InstallScriptPath>$(MSBuildProjectDirectory)\..\..\install.ps1</InstallScriptPath>
+  </PropertyGroup>
+
+  <Target Name="PackForSideloading" AfterTargets="Build">
+    <Message Importance="high" Text="开始创建侧加载安装包..." />
+    
+    <!-- 检查 WinApp CLI -->
+    <Exec Command="where winapp" IgnoreExitCode="true">
+      <Output TaskParameter="ExitCode" PropertyName="WinAppExitCode" />
+    </Exec>
+    <Error Condition="'$(WinAppExitCode)' != '0'" Text="未找到 WinApp CLI，请先安装：dotnet tool install -g winapp.cli" />
+    
+    <!-- 创建输出目录 -->
+    <MakeDir Directories="$(SideloadOutputDir)" />
+    
+    <!-- 复制安装脚本 -->
+    <Copy SourceFiles="$(InstallScriptPath)" DestinationFolder="$(SideloadOutputDir)" Condition="Exists('$(InstallScriptPath)')" />
+    <Message Importance="high" Text="复制安装脚本：$(InstallScriptPath)" Condition="Exists('$(InstallScriptPath)')" />
+    <Warning Text="未找到安装脚本：$(InstallScriptPath)" Condition="!Exists('$(InstallScriptPath)')" />
+    
+    <!-- 使用 winapp package 打包 -->
+    <Exec Command="$(WinAppCliPath) package &quot;$(AppOutputDir)&quot; --output &quot;$(SideloadOutputDir)&quot; --verbose" />
+    
+    <!-- 查找并显示生成的文件 -->
+    <ItemGroup>
+      <GeneratedMsix Include="$(SideloadOutputDir)\*.msix" />
+      <GeneratedMsixBundle Include="$(SideloadOutputDir)\*.msixbundle" />
+      <GeneratedCer Include="$(SideloadOutputDir)\*.cer" />
+    </ItemGroup>
+    
+    <Message Importance="high" Text="================================================" />
+    <Message Importance="high" Text="侧加载安装包创建完成！" />
+    <Message Importance="high" Text="输出目录：$(SideloadOutputDir)" />
+    <Message Importance="high" Text="生成的文件：" />
+    <Message Importance="high" Text="  - @(GeneratedMsix)" Condition="'@(GeneratedMsix)' != ''" />
+    <Message Importance="high" Text="  - @(GeneratedMsixBundle)" Condition="'@(GeneratedMsixBundle)' != ''" />
+    <Message Importance="high" Text="  - @(GeneratedCer)" Condition="'@(GeneratedCer)' != ''" />
+    <Message Importance="high" Text="  - install.ps1" Condition="Exists('$(InstallScriptPath)')" />
+    <Message Importance="high" Text="================================================" />
+    <Message Importance="high" Text="安装方法：右键点击 install.ps1，选择'使用 PowerShell 运行'" />
+  </Target>
+</Project>

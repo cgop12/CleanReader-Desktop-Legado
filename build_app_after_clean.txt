@@ -1,0 +1,36 @@
+﻿  正在确定要还原的项目…
+C:\Program Files\dotnet\sdk\10.0.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: 目标框架“net6.0-windows10.0.22000.0”不受支持，将来不会收到安全更新。有关支持策略的详细信息，请参阅 https://aka.ms/dotnet-core-support。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+C:\Program Files\dotnet\sdk\10.0.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: 目标框架“net6.0-windows10.0.22000.0”不受支持，将来不会收到安全更新。有关支持策略的详细信息，请参阅 https://aka.ms/dotnet-core-support。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+  已还原 D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj (用时 778 毫秒)。
+  12 个项目(共 13 个)是最新的，无法还原。
+C:\Program Files\dotnet\sdk\10.0.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: 目标框架“net6.0-windows10.0.22000.0”不受支持，将来不会收到安全更新。有关支持策略的详细信息，请参阅 https://aka.ms/dotnet-core-support。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+  Models.DataBase -> D:\CleanReader.Desktop-3.2302.1.0\src\Models\Models.DataBase\bin\Debug\net6.0\Models.DataBase.dll
+  EpubService -> D:\CleanReader.Desktop-3.2302.1.0\src\Services\EpubService\bin\Debug\net6.0\EpubService.dll
+  Generator.String -> D:\CleanReader.Desktop-3.2302.1.0\src\Utilities\Generator\Generator.String\bin\Debug\netstandard2.0\Generator.String.dll
+  NovelService -> D:\CleanReader.Desktop-3.2302.1.0\src\Services\NovelService\bin\Debug\net6.0\NovelService.dll
+  Locator.Lib -> D:\CleanReader.Desktop-3.2302.1.0\src\Utilities\Locator\Locator.Lib\bin\Debug\net6.0\Locator.Lib.dll
+  Models.Constants -> D:\CleanReader.Desktop-3.2302.1.0\src\Models\Models.Constants\bin\Debug\net6.0\Models.Constants.dll
+  Toolkit.Interfaces -> D:\CleanReader.Desktop-3.2302.1.0\src\Utilities\Toolkit\Toolkit.Interfaces\bin\Debug\net6.0\Toolkit.Interfaces.dll
+  CleanReader.Core -> D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.Core\bin\Debug\net6.0-windows10.0.22000.0\CleanReader.Core.dll
+  Models.App -> D:\CleanReader.Desktop-3.2302.1.0\src\Models\Models.App\bin\Debug\net6.0\Models.App.dll
+  Models.Resources -> D:\CleanReader.Desktop-3.2302.1.0\src\Models\Models.Resources\bin\Debug\net6.0-windows10.0.22000.0\Models.Resources.dll
+  Toolkit.Desktop -> D:\CleanReader.Desktop-3.2302.1.0\src\Utilities\Toolkit\Toolkit.Desktop\bin\Debug\net6.0-windows10.0.22000.0\CleanReader.Toolkit.Desktop.dll
+  ViewModels.Desktop -> D:\CleanReader.Desktop-3.2302.1.0\src\ViewModels\ViewModels.Desktop\bin\Debug\net6.0-windows10.0.22000.0\ViewModels.Desktop.dll
+D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\obj\Debug\net6.0-windows10.0.22000.0\App.g.i.cs(18,25): error CS0101: 命名空间“CleanReader.App”已经包含“Program”的定义 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\obj\Debug\net6.0-windows10.0.22000.0\App.g.i.cs(23,21): error CS0111: 类型“Program”已定义了一个名为“Main”的具有相同参数类型的成员 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\obj\Debug\net6.0-windows10.0.22000.0\Pages\ReaderPage.g.i.cs(38,37): error CS0234: 命名空间“CleanReader”中不存在类型或命名空间名“Core”(是否缺少程序集引用?) [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+C:\Users\cgop12\.nuget\packages\microsoft.windowsappsdk.winui\1.8.260224000\buildTransitive\Microsoft.UI.Xaml.Markup.Compiler.interop.targets(845,9): error MSB3073: 命令“"C:\Users\cgop12\.nuget\packages\microsoft.windowsappsdk.winui\1.8.260224000\buildTransitive\..\tools\net6.0\..\net472\XamlCompiler.exe" "obj\Debug\net6.0-windows10.0.22000.0\\input.json" "obj\Debug\net6.0-windows10.0.22000.0\\output.json"”已退出，代码为 1。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+
+生成失败。
+
+C:\Program Files\dotnet\sdk\10.0.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: 目标框架“net6.0-windows10.0.22000.0”不受支持，将来不会收到安全更新。有关支持策略的详细信息，请参阅 https://aka.ms/dotnet-core-support。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+C:\Program Files\dotnet\sdk\10.0.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: 目标框架“net6.0-windows10.0.22000.0”不受支持，将来不会收到安全更新。有关支持策略的详细信息，请参阅 https://aka.ms/dotnet-core-support。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+C:\Program Files\dotnet\sdk\10.0.201\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.EolTargetFrameworks.targets(32,5): warning NETSDK1138: 目标框架“net6.0-windows10.0.22000.0”不受支持，将来不会收到安全更新。有关支持策略的详细信息，请参阅 https://aka.ms/dotnet-core-support。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\obj\Debug\net6.0-windows10.0.22000.0\App.g.i.cs(18,25): error CS0101: 命名空间“CleanReader.App”已经包含“Program”的定义 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\obj\Debug\net6.0-windows10.0.22000.0\App.g.i.cs(23,21): error CS0111: 类型“Program”已定义了一个名为“Main”的具有相同参数类型的成员 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\obj\Debug\net6.0-windows10.0.22000.0\Pages\ReaderPage.g.i.cs(38,37): error CS0234: 命名空间“CleanReader”中不存在类型或命名空间名“Core”(是否缺少程序集引用?) [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+C:\Users\cgop12\.nuget\packages\microsoft.windowsappsdk.winui\1.8.260224000\buildTransitive\Microsoft.UI.Xaml.Markup.Compiler.interop.targets(845,9): error MSB3073: 命令“"C:\Users\cgop12\.nuget\packages\microsoft.windowsappsdk.winui\1.8.260224000\buildTransitive\..\tools\net6.0\..\net472\XamlCompiler.exe" "obj\Debug\net6.0-windows10.0.22000.0\\input.json" "obj\Debug\net6.0-windows10.0.22000.0\\output.json"”已退出，代码为 1。 [D:\CleanReader.Desktop-3.2302.1.0\src\CleanReader.App\CleanReader.App.csproj]
+    3 个警告
+    4 个错误
+
+已用时间 00:00:13.83
