@@ -1,0 +1,166 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+                            Preamble
+
+  The GNU Affero General Public License is a free, copyleft license for
+software and other kinds of works, specifically designed to ensure
+cooperation with the community in the case of network server software.
+
+  The licenses for most software and other practical works are designed
+to take away your freedom to share and change the works.  By contrast,
+our General Public Licenses are intended to guarantee your freedom to
+share and change all versions of a program--to make sure it remains free
+software for all its users.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+them if you wish), that you receive source code or can get it if you
+want it, that you can change the software or use pieces of it in new
+free programs, and that you know you can do these things.
+
+  Developers that use our General Public Licenses protect your rights
+with two steps: (1) assert copyright on the software, and (2) offer
+you this License which gives you legal permission to copy, distribute
+and/or modify the software.
+
+  A secondary benefit of defending all users' freedom is that
+improvements made in alternate versions of the program, if they
+receive widespread use, become available for other developers to
+incorporate.  Since developers will know that their software will be
+used by other developers, they will be willing to use, improve and
+develop software for the common good.
+
+  For the purposes of this License, the "work" refers to any covered
+work, whether in Source or Object form, made available under the
+License, as indicated by a copyright notice that is included in or
+attached to the work (an example is provided in the Appendix below).
+
+  "Derivative works" shall mean any work, whether in Source or Object
+form, that is based on (or derived from) the work and for which the
+editorial revisions, annotations, elaborations, or other modifications
+represent, as a whole, an original work of authorship.
+
+  "Source form" means the preferred form for making modifications,
+including but not limited to software source code, documentation
+source, and configuration files.
+
+  "Object form" means any form resulting from mechanical transformation
+or translation of a Source form, including but not limited to compiled
+object code, generated documentation, and conversions to other media
+types.
+
+  "Work" shall not include works that remain separable from, or merely
+link (or bind by name) to the interfaces of, the Work and Derivative
+Works thereof.
+
+  "Correspondent" shall mean, in the case of a work in Source form, the
+original author, and in the case of a work in Object form, the person
+or entity most recently identified as the original author by the
+copyright holder.
+
+  "Interaction" shall mean any use, modification, copying, distribution
+or other activity that is not permitted by applicable law or the terms
+of this License.
+
+  This License is governed by the laws of the jurisdiction in which the
+work is created or used, except that no patent license is granted.
+
+  This License does not cover any activity that does not require
+copyright permission, such as running the program, using its output, or
+using the work as a library.
+
+  This License does not cover any activity that is not an "interaction"
+as defined above.
+
+  Everyone is permitted to use this License for any work, regardless of
+how it is licensed.
+
+  Everyone is permitted to use this License for any work, regardless of
+how it is licensed.
+
+  1. Source Code.
+
+  The "source code" for a work means the preferred form of the work for
+making modifications to it.  "Object code" means any non-source form of
+a work.
+
+  The following additional terms apply to works that are distributed in
+Object form:
+
+   a) This License applies to any work that is distributed in Object
+   form, if the work is accompanied by the Source form of the work.
+   The Source form may be included in the same distribution, or may be
+   made available separately.
+
+   b) This License does not apply to works that are not accompanied by
+   the Source form.
+
+   c) The recipient of a work in Object form is entitled to receive a
+   copy of the Source form of the work.
+
+   d) If the work is accompanied by a written offer to provide the
+   Source form, the recipient may choose to obtain the Source form from
+   the same source.
+
+   e) If the work is accompanied by a written offer to provide the
+   Source form, the recipient may choose to obtain the Source form from
+   the same source.
+
+  2. Basic Permissions.
+
+  All rights granted under this License are granted for the term of
+copyright on the work, and are irrevocable provided the stated
+conditions are met.  This License explicitly affirms your unlimited
+permission to run the unmodified work, and to receive the output from
+running the work.
+
+  This License explicitly affirms your unlimited permission to run the
+unmodified work, and to receive the output from running the work.
+
+  3. Limitations.
+
+  You may not use the work for any purpose that is not permitted by
+applicable law or the terms of this License.  You may not use the work
+in any way that violates the rights of others.
+
+  You may not use the work for any purpose that is not permitted by
+applicable law or the terms of this License.  You may not use the work
+in any way that violates the rights of others.
+
+  4. Termination.
+
+  Your rights under this License terminate automatically if you breach
+this License in any way.  However, if you cease all violation of this
+License, then your License is reinstated (a) provisionally, unless and
+until the copyright holder explicitly and finally terminates your
+License, and (b) permanently, if the copyright holder fails to notify
+you of the violation by some reasonable means prior to 60 days after
+the cessation.
+
+  Moreover, your License is terminated permanently if the copyright
+holder notifies you of a violation and you do not cure the violation
+within a reasonable period.
+
+  5. Disclaimer of Warranty.
+
+  THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE WORK OR THE USE OF THE WORK OR OTHER DEALINGS IN THE WORK.
+
+  6. Limitation of Liability.
+
+  IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THE WORK.

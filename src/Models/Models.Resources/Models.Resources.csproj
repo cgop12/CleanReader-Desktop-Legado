@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
+        <TargetPlatformMinVersion>10.0.22621.0</TargetPlatformMinVersion>
+        <RootNamespace>CleanReader.Models.Resources</RootNamespace>
+        <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+        <UseWinUI>true</UseWinUI>
+        <Platforms>x64</Platforms>
+        <WindowsSdkPackageVersion>10.0.19041.38</WindowsSdkPackageVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Remove="en-US\Resources.resw" />
+        <None Remove="zh-CN\Resources.resw" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260317003" />
+        <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.1721" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference SetTargetFramework="TargetFramework=netstandard2.0" Include="..\..\Utilities\Generator\Generator.String\Generator.String.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+        <ProjectReference Include="..\..\Utilities\Locator\Locator.Lib\Locator.Lib.csproj" />
+        <ProjectReference Include="..\..\Utilities\Toolkit\Toolkit.Interfaces\Toolkit.Interfaces.csproj" />
+        <AdditionalFiles Include="zh-CN\Resources.resw" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="Microsoft.CodeAnalysis.Metrics" Version="3.3.3">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+</Project>

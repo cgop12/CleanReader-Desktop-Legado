@@ -1,0 +1,85 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# MSIX packages and certificates
+*.msix
+*.msixbundle
+*.cer
+*.pfx
+AppPackages/
+
+# NuGet
+[Nn]uget/
+*.nupkg
+packages/
+
+# User-specific files
+*.suo
+*.user
+*.userprefs
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ReSharper
+*.rsuser
+*.resharper
+*.resharper.user
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.pid
+
+# Project specific
+build_output*.txt
+install*.log
+*.binlog
+
+# Build logs and temp files
+*.txt
+*.ps1
+*.bat
+*.md
+!README.md
+!README_EN.md
+!install.ps1
