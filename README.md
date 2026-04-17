@@ -158,7 +158,7 @@ CleanReader.Desktop-3.2302.1.0/
 
 ## 🔗 相关仓库
 
-- **[CleanReader](https://github.com/Richasy/CleanReader.Desktop)** – 原版 CleanReader 桌面电子书阅读器
+- **[CleanReader](https://github.com/Clean-Reader/CleanReader.Desktop)** – 原版 CleanReader 桌面电子书阅读器
 - **[Legado](https://github.com/gedoor/legado)** – 提供书源格式和解析规则的开源阅读器项目
 
 ---
